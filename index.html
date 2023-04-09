@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/5d397587b1.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="shortcut icon" href="icon/icons8-body-mass-index-30.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="weight">
+                <input type="range" id="weightRange" min="20" max="200">
+                <p class="kg">Kg</p>
+                <p class="userWeight">170</p>
+                
+            </div>
+            <div class="height">
+                <input type="range" id="heightRange" min="120" max="250">
+                <p class="cm">Cm</p>
+                <p class="userHeight">70</p>
+                
+            </div>
+            <div class="status-box">
+                <p id="bmi-number">24.2</p>
+                <p id="bmi-status">Normal Weight</p>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
